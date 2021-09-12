@@ -12,4 +12,5 @@ double approach(double a, double b, double c) {
 	if (a < b) return std::min(a + c, b); else return std::max(a - c, b);
 }
 
+![Untitled](https://user-images.githubusercontent.com/60048714/133000404-f7cc83af-3191-4224-9328-db9ea5daac9c.png)
 
