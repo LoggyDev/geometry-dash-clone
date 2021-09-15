@@ -5,16 +5,19 @@
 
 class scene {
 public:
+	~scene();
 	scene(SDL_Renderer* ren);
 	void update(SDL_Renderer* ren, int input);
 	bool triggerActivated(int x);
-
+	SDL_AudioSpec wavSpec;
+	Uint32 wavLength;
+	Uint8 *wavBuffer;
+	SDL_AudioDeviceID deviceId;
 	sprite line;
 	sprite tile;
 	sprite floor;
 	sprite background;
 	player cube;
-
 	int shiftVal         = 1;
 	int p_red            = 62;
 	int p_green          = 49;

@@ -1,29 +1,24 @@
 #pragma once
 
-struct worldTile {
-	int x        = 0;
-	int y        = 0; 
-	int w        = 0; 
-	int h        = 0;
-	int xx       = 0;
-	int yy       = 0; 
-	int offset_y = 0;
-	int id       = 0;
-	int rot      = 0; 
+struct dataToken {
+	int a        = 0;
+	int b        = 0; 
+	int c        = 0; 
+	int d        = 0;
+	int e        = 0;
+	int f        = 0; 
+	int g        = 0;
+	int h        = 0; 
 	int opp      = 0; 
-	int type     = 0;
-	int x_1      = 0;
-	int y_1      = 0;
 
-	worldTile(int x_, int y_, int w_, int h_, int xx_, int yy_, int rot_, int id_) {
-		x = x_;
-		y = y_;
-		w = w_;
+	dataToken(int a_, int b_, int c_, int d_, int e_, int f_, int g_, int h_) {
+		a = a_;
+		b = b_;
+		c = c_;
+		d = d_;
+		e = e_;
+		f = f_;
+		g = g_;
 		h = h_;
-		xx = xx_;
-		yy = yy_;
-		offset_y = w_;
-		rot = rot_;
-		id = id_;
 	}
 };
