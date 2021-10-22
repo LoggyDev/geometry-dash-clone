@@ -15,5 +15,4 @@ double approach(double a, double b, double c) {
 ![Untitled](https://user-images.githubusercontent.com/60048714/133000404-f7cc83af-3191-4224-9328-db9ea5daac9c.png)
 ![Untitled](https://user-images.githubusercontent.com/60048714/133004751-cfee4150-08e7-45bc-b443-2a76415f749c.png)
 
-<h1>we act a little silly</h1>
 
